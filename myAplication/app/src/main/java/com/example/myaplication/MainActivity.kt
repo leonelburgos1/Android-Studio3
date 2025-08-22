@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         val boton1 = findViewById<Button>(R.id.button)
+        // otra forma val boton1 = findViewById<Button>(R.id.button)
         val editText = findViewById<EditText>(R.id.editTextText)
         val textview = findViewById<TextView>(R.id.textView3)
 
