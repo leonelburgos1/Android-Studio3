@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstProject</string>
+    <string name="estatura">Enter your height</string>
+    <string name="peso">Enter your weight</string>
+    <string name="IMC">calculate IMC</string>
+    <string name="resultado_IMC">result IMC</string>
+    <string name="saludo">hello</string>
+    <string name="ingNombre">enter your name</string>
+    <string name="guardar">save</string>
+    <string name="regresar">back</string>
+    <string name="bienvenido">WELCOME</string>
+</resources>

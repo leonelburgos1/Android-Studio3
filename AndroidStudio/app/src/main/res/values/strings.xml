@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstProject</string>
+    <string name="estatura">ingrese su estatura</string>
+    <string name="peso">ingrese su peso</string>
+    <string name="IMC">calcular IMC</string>
+    <string name="resultado_IMC">resultado IMC</string>
+    <string name="saludo">hola</string>
+    <string name="ingNombre">ingrese su nombre</string>
+    <string name="guardar">guardar</string>
+    <string name="regresar">regresar</string>
+    <string name="bienvenido">BIENVENIDO</string>
+</resources>
