@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         val nombre = sharedPref.getString("nombre_usuario", null)
 
         if (nombre != null) {
-            nombreTextView.text = "hola $nombre"
+            nombreTextView.text = "Bienvenido"
         } else {
             nombreTextView.text = "Bienvenido"
         }
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btusuario.setOnClickListener {
-            val intent = Intent(this, registro::class.java)
+            val intent = Intent(this, AuthActivity::class.java)
             startActivity(intent)
         }
     }

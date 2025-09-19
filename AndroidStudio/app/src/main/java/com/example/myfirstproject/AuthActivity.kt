@@ -7,6 +7,7 @@ import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
+import android.widget.Toast
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import androidx.appcompat.app.AlertDialog
@@ -16,7 +17,6 @@ class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.auth_activity)
-
         FirebaseAuth.getInstance().signOut()
         title = "Autenticación"
         val btregistrar=findViewById<Button>(R.id.SignUp)
